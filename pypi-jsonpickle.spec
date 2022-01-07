@@ -17,7 +17,7 @@ BuildRequires : buildreq-distutils3
 Provides: jsonpickle
 Provides: jsonpickle-python
 Provides: jsonpickle-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(setuptools)
@@ -25,7 +25,7 @@ BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. image:: https://img.shields.io/pypi/v/jsonpickle.svg
