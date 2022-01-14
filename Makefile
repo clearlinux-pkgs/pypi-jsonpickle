@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jsonpickle
-URL = https://files.pythonhosted.org/packages/62/8a/84864798c5ef120e3a5b5cf08d8c231fa4499b53d465488563c4cb901f2f/jsonpickle-2.0.0.tar.gz
+URL = https://files.pythonhosted.org/packages/35/0e/fe3ce0869add0213a1b45eef746cafb79ca45255a60ec918630c159e3490/jsonpickle-2.1.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
