@@ -4,7 +4,7 @@
 #
 Name     : pypi-jsonpickle
 Version  : 2.1.0
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/35/0e/fe3ce0869add0213a1b45eef746cafb79ca45255a60ec918630c159e3490/jsonpickle-2.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/35/0e/fe3ce0869add0213a1b45eef746cafb79ca45255a60ec918630c159e3490/jsonpickle-2.1.0.tar.gz
 Summary  : Python library for serializing any arbitrary object graph into JSON
@@ -14,7 +14,6 @@ Requires: pypi-jsonpickle-license = %{version}-%{release}
 Requires: pypi-jsonpickle-python = %{version}-%{release}
 Requires: pypi-jsonpickle-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(py)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
@@ -52,7 +51,6 @@ Summary: python3 components for the pypi-jsonpickle package.
 Group: Default
 Requires: python3-core
 Provides: pypi(jsonpickle)
-Requires: pypi(importlib_metadata)
 
 %description python3
 python3 components for the pypi-jsonpickle package.
@@ -67,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1642179683
+export SOURCE_DATE_EPOCH=1649773134
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
