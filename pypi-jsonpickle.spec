@@ -4,7 +4,7 @@
 #
 Name     : pypi-jsonpickle
 Version  : 3.0.1
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/2b/3f/dd9bc9c1c9e57c687e8ebc4723e76c48980004244cf8db908a7b2543bd53/jsonpickle-3.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2b/3f/dd9bc9c1c9e57c687e8ebc4723e76c48980004244cf8db908a7b2543bd53/jsonpickle-3.0.1.tar.gz
 Summary  : Python library for serializing any arbitrary object graph into JSON
