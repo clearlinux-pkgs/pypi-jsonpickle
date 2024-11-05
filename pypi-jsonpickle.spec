@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-jsonpickle
-Version  : 3.4.0
-Release  : 50
-URL      : https://files.pythonhosted.org/packages/7a/f3/8097bd63305affcb4cb48d2e48904ad4c3db8ca60ef1913cfbcee4f1d845/jsonpickle-3.4.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/7a/f3/8097bd63305affcb4cb48d2e48904ad4c3db8ca60ef1913cfbcee4f1d845/jsonpickle-3.4.0.tar.gz
+Version  : 3.4.1
+Release  : 51
+URL      : https://files.pythonhosted.org/packages/4e/ff/793a1dbea3a68a71c3795cf09966829116d80d5133ddc8428fbdabdcaf44/jsonpickle-3.4.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/4e/ff/793a1dbea3a68a71c3795cf09966829116d80d5133ddc8428fbdabdcaf44/jsonpickle-3.4.1.tar.gz
 Summary  : jsonpickle encodes/decodes any Python object to/from JSON
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -62,10 +62,10 @@ python3 components for the pypi-jsonpickle package.
 
 
 %prep
-%setup -q -n jsonpickle-3.4.0
-cd %{_builddir}/jsonpickle-3.4.0
+%setup -q -n jsonpickle-3.4.1
+cd %{_builddir}/jsonpickle-3.4.1
 pushd ..
-cp -a jsonpickle-3.4.0 buildavx2
+cp -a jsonpickle-3.4.1 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1730820154
+export SOURCE_DATE_EPOCH=1730835399
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
