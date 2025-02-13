@@ -7,7 +7,7 @@
 #
 Name     : pypi-jsonpickle
 Version  : 4.0.1
-Release  : 54
+Release  : 55
 URL      : https://files.pythonhosted.org/packages/4c/86/82c2829c3160dc5d6d8ec749c4fe18a87fdd001a13b441f2dbc21d8c7214/jsonpickle-4.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4c/86/82c2829c3160dc5d6d8ec749c4fe18a87fdd001a13b441f2dbc21d8c7214/jsonpickle-4.0.1.tar.gz
 Summary  : jsonpickle encodes/decodes any Python object to/from JSON
